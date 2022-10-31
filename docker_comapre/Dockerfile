@@ -9,4 +9,4 @@ RUN python3 -m pip install pandas
 
 #On startup run the python script
 
-ENTRYPOINT [ "./entryPoint.sh" ]
+ENTRYPOINT [ "python3", "comparedata.py"]
